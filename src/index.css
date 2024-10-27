@@ -178,6 +178,82 @@ body {
   background-color: #e9bb24;
 }
 
+/* 
+Responsive Design 
+*/
+
+/* Mobile view (width <= 600px) */
+@media (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+
+  .menu h2 {
+    font-size: 2rem;
+  }
+
+  .menu > p {
+    font-size: 1.4rem;
+    width: 90%;
+  }
+
+  .pizzas {
+    grid-template-columns: 1fr;
+  }
+
+  .pizza {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  .pizza img {
+    width: 8rem;
+  }
+
+  .pizza div {
+    width: calc(100% - 10rem);
+  }
+}
+
+/* Tablet view (width between 600px and 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+  html {
+    font-size: 58%;
+  }
+
+  .header h1 {
+    font-size: 4.5rem;
+  }
+
+  .menu h2 {
+    font-size: 2.2rem;
+  }
+
+  .menu > p {
+    font-size: 1.5rem;
+    width: 85%;
+  }
+
+  .pizzas {
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+  }
+
+  .pizza img {
+    width: 10rem;
+  }
+}
+
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128
