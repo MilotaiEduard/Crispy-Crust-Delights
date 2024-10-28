@@ -2,6 +2,8 @@
 
 Welcome to **Crispy Crust Delights** – a simple yet delightful pizza menu application built with React! This project showcases a static UI for a pizza restaurant, with a focus on displaying a menu, dynamic styling, and a clean, responsive design.
 
+![Crispy Crust Delights App Screenshot](./assets/screenshot.JPG)
+
 ## Features
 
 - Display of various pizza items with descriptions, ingredients, and prices
@@ -26,13 +28,10 @@ To run this project locally, follow these steps:
 
 1. Clone this repository:
    `git clone https://github.com/MilotaiEduard/Crispy-Crust-Delights.git`
-   
 2. Navigate to the project folder:
    `cd Crispy-Crust-Delights`
-   
 3. Install dependencies:
    `npm install`
-   
 4. Start the development server:
    `npm start`
 
@@ -42,5 +41,3 @@ The application will open on `http://localhost:3000`.
 
 - `/src`: Contains the main components and data for the menu.
 - `/public`: Stores static assets like images.
-
-
